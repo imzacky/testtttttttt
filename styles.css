@@ -1,0 +1,70 @@
+:root {
+    --pr-color: #EC633D;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+h2 {
+    color: var(--pr-color) !important;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    font-weight: 900 !important;
+}
+
+.nav-link {
+    color: var(--pr-color) !important;
+}
+
+.nav-link.active {
+    font-weight: 700 !important;
+}
+
+.masukdaftar {
+    color: var(--pr-color) !important;
+    width: 119px !important;
+}
+
+.btn-warning {
+    border: none !important;
+    color: white !important;
+    background-color: #EC633D !important;
+}
+
+/* HERO SECTION */
+#hero {
+    background: linear-gradient(to top, #e8e8e8, #e8e8e8, white, white);
+    height: 85vh !important;
+    padding-top: 55px;
+}
+
+#kami {
+    height: 100% !important;
+    background: #e8e8e8;
+    padding-top: 60px !important;
+    margin-top: 0 !important;
+}
+
+/* MASUK & DAFTAR*/
+
+#masukdaftar {
+    background: #e8e8e8;
+}
+
+/* PASSWORD CHECK */
+
+.password-check div {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-weight: 500;
+    color: red;
+}
+
+.password-check img {
+    height: 25px;
+    padding-right: 10px;
+}
