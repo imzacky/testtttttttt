@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Logo -->
+    <link rel="icon" href="img/officeline.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.3.3/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>OFFICELINE</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar bg-light sticky-top shadow mb-3">
+        <div class="container-lg">
+            <a class="navbar-brand logotoko" href="#">
+                <img src="img/officeline_fit.png" alt="officeline" style="width: 60px;">
+            </a>
+            <span class="navbar-text ">
+                <form class="d-flex form-inputs" role="search">
+                    <input class="form-control pencarian border-2 rounded-3" type="search" placeholder="Cari . . . "
+                        aria-label="Search">
+                    <i class="bi bi-search"></i>
+                </form>
+            </span>
+            <span class="navbar-text">
+                <!-- Keranjang -->
+                <a href="#" class="btn rounded-circle ">
+                    <i class="bi bi-cart fs-4"></i>
+                </a>
+                <!-- Chat -->
+                <a href="#" class="btn rounded-circle">
+                    <i class="bi bi-chat-dots text-dark fs-4"></i>
+                </a>
+                <!-- PROFILE BUTTON-->
+                <a href="#offcanvasExample" class="btn rounded-circle btn-outline-warning" data-bs-toggle="offcanvas"
+                    role="button" aria-controls="offcanvasExample">
+                    <i class=" bi bi-person fs-4"></i>
+                </a>
+                <!-- OFFCANVAS -->
+                <div class="offcanvas offcanvas-end bg-light" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header border-bottom">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                            <i class=" bi bi-person fs-4"></i>
+                            Profile</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body fs-6">
+                        <a href="#" class="row mt-2" style="text-decoration: none;">
+                            <i class="bi bi-gear fst-normal"> Pengaturan Akun</i>
+                        </a>
+                    </div>
+                </div>
+            </span>
+        </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div id="carouselExampleInterval" class="carousel slide m-lg-4 m-2" data-bs-ride="carousel">
+        <div class="carousel-inner rounded-5">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/Konachan.com - 376562 aqua_eyes blood cape dress frieren gray_hair long_hair magic pointed_ears polychromatic ribbons sousou_no_frieren soy_chicken staff twintails.jpg"
+                    class="d-block w-100" alt="banner">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="img/simson.jpg" class="d-block w-100" alt="banner">
+            </div>
+            <div class="carousel-item">
+                <img src="img/son-goku-silhouette-11520x6480-17760.png" class="d-block w-100" alt="banner">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- KATEGORI -->
+    <section>
+        <div class="container card border-0 pt-2">
+            <div class="container" style="border-color: #EC633D !important;">
+                <div class="row text-center pt-2 mb-3 border-bottom border rounded-pill" style="border-color: #EC633D !important;"">
+                        <h2 class="fw-bold">KATEGORI</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                            <p class="card-text text-center">PINSIL</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                            <p class="card-text text-center">PENA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                            <p class="card-text text-center">SPIDOL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TULISAN REKOMENDASI -->
+    <section class="mt-5 mx-5">
+        <div class="container pt-2 border-bottom border rounded-pill" style="border-color: #EC633D !important;">
+            <div class="row text-center">
+                    <h2 class="fw-bold">REKOMENDASI</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- BARANG REKOMENDASI -->
+    <section id="rekomendasi">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col mx-1 mt-3">
+                    <div class="card shadow produk">
+                        <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                        <div class="card-body">
+                            <h5 class="card-text harga">Rp. 10.000</h5>
+                            <p class="card-text">Pena</p>
+                            <a href="#"
+                                class="btn btn-warning d-grid gap-1">
+                                Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-1 mt-3">
+                    <div class="card shadow produk">
+                        <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                        <div class="card-body">
+                            <h5 class="card-text harga">Rp. 10.000</h5>
+                            <p class="card-text">Pena</p>
+                            <a href="#"
+                                class="btn btn-warning position-relative bottom-0 start-50 translate-middle-x d-grid gap-2">
+                                Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-1 mt-3">
+                    <div class="card shadow produk">
+                        <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                        <div class="card-body">
+                            <h5 class="card-text harga">Rp. 10.000</h5>
+                            <p class="card-text">Pena</p>
+                            <a href="#"
+                                class="btn btn-warning position-relative bottom-0 start-50 translate-middle-x d-grid gap-2">
+                                Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-1 mt-3">
+                    <div class="card shadow produk">
+                        <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                        <div class="card-body">
+                            <h5 class="card-text harga">Rp. 10.000</h5>
+                            <p class="card-text">Pena</p>
+                            <a href="#"
+                                class="btn btn-warning position-relative bottom-0 start-50 translate-middle-x d-grid gap-2">
+                                Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-1 mt-3">
+                    <div class="card shadow produk">
+                        <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                        <div class="card-body">
+                            <h5 class="card-text harga">Rp. 10.000</h5>
+                            <p class="card-text">Pena</p>
+                            <a href="#"
+                                class="btn btn-warning position-relative bottom-0 start-50 translate-middle-x d-grid gap-2">
+                                Beli</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mx-1 mt-3">
+                    <div class="card shadow produk">
+                        <img src="img/pulpen.png" class="card-img-top p-2" alt="produk">
+                        <div class="card-body">
+                            <h5 class="card-text harga">Rp. 10.000</h5>
+                            <p class="card-text">Pena</p>
+                            <a href="#"
+                                class="btn btn-warning position-relative bottom-0 start-50 translate-middle-x d-grid gap-2">
+                                Beli</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

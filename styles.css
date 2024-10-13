@@ -1,0 +1,122 @@
+:root {
+    --pr-color: #EC633D;
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+h2 {
+    color: var(--pr-color) !important;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    font-weight: 900 !important;
+}
+
+.nav-link {
+    color: var(--pr-color) !important;
+}
+
+.nav-link.active {
+    font-weight: 700 !important;
+}
+
+.masukdaftar {
+    color: var(--pr-color) !important;
+    width: 119px !important;
+}
+
+.btn-warning {
+    border: none !important;
+    color: white !important;
+    background-color: #EC633D !important;
+}
+
+.btn-outline-warning {
+    border: none !important;
+    color: white !important;
+    background-color: #EC633D !important;
+}
+
+/* HERO SECTION */
+#hero {
+    background: linear-gradient(to top, #e8e8e8, #e8e8e8, white, white);
+    height: 85vh !important;
+    padding-top: 55px;
+}
+
+#kami {
+    height: 100% !important;
+    background: #e8e8e8;
+    padding-top: 60px !important;
+    margin-top: 0 !important;
+}
+
+/* MASUK & DAFTAR*/
+
+#masukdaftar {
+    background: #e8e8e8;
+}
+
+
+/* MENYEMBUNYIKAN GAMBAR */
+
+@media (max-width: 768px) {
+    .logotoko {
+        display: none;
+    }
+}
+
+/* TOKO */
+
+.pencarian {
+    border-color: #EC633D !important;
+}
+
+@media screen and (min-width: 768px) {
+    .pencarian {
+        width: 560px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .pencarian {
+        width: 180px !important;
+    }
+}
+
+.form-inputs {
+    position: relative !important;
+}
+
+.form-inputs .form-control {
+    height: 45px !important;
+}
+
+.form-inputs .form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid #EC633D !important;
+}
+
+.form-inputs i {
+    position: absolute !important;
+    right: 20px !important;
+    top: 12px !important;
+}
+
+/* CAROUSEL */
+
+.carousel-item img {
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 200px;
+    max-height: 250px;
+}
+
+/* BARANG */
+.harga{
+    color: var(--pr-color);
+}
